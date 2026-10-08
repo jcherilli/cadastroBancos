@@ -1,4 +1,4 @@
 package br.com.julio.exception;
 
-public class AgenciaNaoAtivoOuEncontradaException {
+public class AgenciaNaoAtivoOuEncontradaException extends RuntimeException {
 }

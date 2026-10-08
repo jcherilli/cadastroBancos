@@ -1,4 +1,4 @@
-package br.com.julio.service.http;
+package br.com.julio.modelo.http;
 
 public enum SituacaoCadastral {
 
