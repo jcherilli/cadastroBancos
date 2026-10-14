@@ -7,6 +7,15 @@ public class AgenciaHttp {
     private String cnpj;
     private SituacaoCadastral situacaoCadastral;
 
+    public AgenciaHttp() {}
+
+    public AgenciaHttp(String nome, String razaoSocial, String cnpj,  SituacaoCadastral situacaoCadastral) {
+        this.nome = nome;
+        this.razaoSocial = razaoSocial;
+        this.cnpj = cnpj;
+        this.situacaoCadastral = situacaoCadastral;
+    }
+
     public String getNome() {
         return nome;
     }
