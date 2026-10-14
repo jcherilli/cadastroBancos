@@ -1,15 +1,13 @@
-package br.com.julio.service.http;
+package br.com.julio.service;
 
 import br.com.julio.exception.AgenciaNaoAtivoOuEncontradaException;
 import br.com.julio.modelo.Agencia;
 import br.com.julio.modelo.http.AgenciaHttp;
 import br.com.julio.modelo.http.SituacaoCadastral;
 import br.com.julio.repository.AgenciaRepository;
+import br.com.julio.service.http.SituacaoCadastralHttpService;
 import jakarta.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @ApplicationScoped
 public class AgenciaService {

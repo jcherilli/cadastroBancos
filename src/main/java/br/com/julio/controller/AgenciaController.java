@@ -1,7 +1,7 @@
 package br.com.julio.controller;
 
 import br.com.julio.modelo.Agencia;
-import br.com.julio.service.http.AgenciaService;
+import br.com.julio.service.AgenciaService;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.Context;
