@@ -1,7 +1,7 @@
 services:
-  postgres-db-alura-banking-service:
+  postgres-docker:
       image: postgres:14
-      container_name: postgres-db-alura-banking-service-container
+      container_name: postgres-container
       environment:
         - POSTGRES_USER=joao
         - POSTGRES_PASSWORD=joao
